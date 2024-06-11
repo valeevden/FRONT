@@ -1,0 +1,47 @@
+div {
+    display: inherit;
+}
+
+.main-page {
+    background-color: rgba(160, 208, 214, 0.534);
+    box-shadow: 10px 5px 50px 0px rgb(123, 122, 124);
+    width: 21cm;
+    height: 29.7cm;
+    margin: 30mm 25mm 30mm 25mm; 
+    display: grid;
+    grid-template-columns: 2fr 50px 1fr 3fr;
+    grid-template-rows: 2fr 2.5fr 2.5fr 2.5fr;
+} 
+
+.left-color-box {
+    display: grid;
+    background-color: rgb(43, 49, 61);
+    grid-row: 1 / 5;
+    grid-column: 1 / 2;
+}
+
+.photo {
+    display: grid;
+    grid-column: 1 / 1;
+    grid-row: 1 / 1;
+    align-items: center;
+    justify-items: center;
+}
+.avatar-img {
+    width: 55%;
+    border-radius: 50%;
+}
+.author {
+    grid-column: 3 / end;
+}
+.author-name {
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+
+
+.left-top {
+    background-color: aqua;
+    display: inline-block;
+    size: 100px;
+}
